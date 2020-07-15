@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(12, 37, 46);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.rectangle{
+    display: flex;
+    width: 50%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.background{
+    display: flex;
+    width: 50%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255, 252, 245);
+    margin-top: 120px;
+    /* border-radius: 10%; */
+}
+
+.rectangle h1{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(127, 201, 235);
+}
+.rectangle .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rectangle .content label{
+    font-family: 'BenchNine', sans-serif;
+    color: rgb(127, 201, 235);
+    font-size: 30px;
+    margin-top: 20px;
+}
+.rectangle .content input{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+    
+}
+.rectangle .content textarea{
+    width: 200px;
+    height: 202px;
+    margin-bottom: 30px;
+}
+.rectangle .content .button{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;;
+}
+.rectangle .content .button input{
+    font-family: 'BenchNine', sans-serif;
+    color: rgb(127, 201, 235);
+    font-size: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.rectangle .tacheafficher{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+.rectangle .tacheafficher .supp_button{
+    width: 10%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 252, 245); /* Green */
+    border: solid 1px red;
+    padding: 8px 16px;
+    
+    display: inline-block;
+    
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.rectangle .tacheafficher .supp_button:hover {
+    background-color: #f44336;
+    color:rgb(255, 252, 245);
+    transition-duration: 0.4s; 
+    
+}
+
+.rectangle .tacheafficher a{
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 40px;
+    color: crimson;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    
+}
+.rectangle .tacheafficher .tache{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: start;
+    
+    
+}
+.rectangle .tacheafficher h2{
+    font-size: 30px;
+    font-family: 'BenchNine', sans-serif;
+    color: rgb(127, 201, 235);
+}
+.rectangle .tacheafficher p{
+    font-size: 20px;
+    font-family: 'BenchNine', sans-serif;
+}
+
+/* input[name=New_title]{
+    border: none;
+    font-size: 32px;
+    font-family: 'BenchNine', sans-serif;
+    color: rgb(127, 201, 235);
+    font-weight: 700;
+} */
