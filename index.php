@@ -60,7 +60,7 @@ $task = $query->fetchAll();
     <div class="rectangle">
         <div class="background">
             <h1>To do List</h1>
-            <form class="content" method="post" action="#" netlifly>
+            <form name="todolist" class="content" method="post" action="#" data-netlify="true">
             <?php if (isset($erreurs)) { ?>
                 <p><?php echo $erreurs ?></p>
                 <?php } ?>
